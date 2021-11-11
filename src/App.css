@@ -291,13 +291,29 @@ header::after {
     display: block;
     color: white;
 }
+.humberger-btn .fa-bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
 .humburger-menu{
     opacity:0.8;
     background-color:#ccc;
     position:fixed;
+    text-align: center;
+    justify-content: center;
     width:100%;
     height:100%;
     top:0px;
     left:0px;
     z-index:1000;
+}
+.humburger-menu ul{
+    position: relative;
+    top: 50%;
+}
+.humburger-menu ul li a{
+    color: black;
+    font-size: large;
 }

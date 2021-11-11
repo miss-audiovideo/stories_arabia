@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -15,7 +13,9 @@ const Navbar = () => {
                             <div className="brand">ARABIA</div>
                         </Link>
                         <div className="humburger-btn">
-                            <FontAwesomeIcon icon={faBars} color="white" fontSize="1.5rem" />
+                            <div className="fa-bar"></div>
+                            <div className="fa-bar"></div>
+                            <div className="fa-bar"></div>
                         </div>
                     </div>
                     {/* <div className="humburger-menu">
@@ -40,16 +40,7 @@ const Navbar = () => {
                 </nav>
             </Router>
             <style jsx>{`
-                .humburger-menu{
-                    opacity:0.8;
-                    background-color:#ccc;
-                    position:fixed;
-                    width:100%;
-                    height:100%;
-                    top:0px;
-                    left:0px;
-                    z-index:1000;
-                }
+                
             `}</style>
         </>
     );
