@@ -9,16 +9,21 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar />
         <Switch>
           <Route exact path="/">
+          <header>
+          <Navbar />
             <Main />
+            </header>
           </Route>
           <Route exact path="/products">
+          <Navbar />
           </Route>
           <Route exact path="/about">
+          <Navbar />
           </Route>
           <Route exact path="/contact">
+          <Navbar />
           </Route>
         </Switch>
       </Router>
