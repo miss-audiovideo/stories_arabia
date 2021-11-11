@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Navbar = () => {
-    // const [display, setDisplay] = useState("");
+    const [style, setStyle] = useState("humburger-menu-hidden");
+    const toggleMenu = () => {
+        if (style === "humburger-menu-hidden") {
+            setStyle("humburger-menu");
+        }
+        else {
+            setStyle("humburger-menu-hidden");
+        }
+    };
 
     return (
         <>
@@ -12,13 +20,14 @@ const Navbar = () => {
                         <Link to="/">
                             <div className="brand">ARABIA</div>
                         </Link>
-                        <div className="humburger-btn">
+                        <a className="humburger-btn" type="button" onClick={toggleMenu}>
                             <div className="fa-bar"></div>
                             <div className="fa-bar"></div>
                             <div className="fa-bar"></div>
-                        </div>
+                        </a>
                     </div>
-                    <div className="humburger-menu">
+                    <div className={style}>
+                        <a className="close-btn" type="button" onClick={toggleMenu}></a>
                         <ul>
                             <li>
                                 <Link to="/products">

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import video from './Videos/Shoes Ad.MOV';
 
 const Main = () => {

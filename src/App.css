@@ -255,14 +255,17 @@ header::after {
     color: white;
 }
 .fa-bar{
-    width: 30px;
+    width: 32px;
     height: 4px;
     background-color: white;
-    margin: 6px 0;
+    margin: 5px 0;
+}
+.humburger-menu-hidden{
+    display: none;
 }
 .humburger-menu{
-    opacity:0.8;
-    background-color:#ccc;
+    position: relative;
+    background-color:#fff;
     position:fixed;
     text-align: center;
     justify-content: center;
@@ -273,10 +276,42 @@ header::after {
     z-index:1000;
 }
 .humburger-menu ul{
-    position: relative;
-    top: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .humburger-menu ul li a{
     color: black;
-    font-size: large;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    cursor: pointer;
+    line-height: 60px;
+}
+.close-btn {
+  position: absolute;
+  right: 39px;
+  top: 22px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close-btn:hover {
+  opacity: 1;
+}
+.close-btn:before, .close-btn:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close-btn:before {
+  transform: rotate(45deg);
+}
+.close-btn:after {
+  transform: rotate(-45deg);
 }
