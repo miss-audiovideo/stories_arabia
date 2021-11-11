@@ -291,9 +291,9 @@ header::after {
     display: block;
     color: white;
 }
-.humberger-btn .fa-bar{
-    width: 35px;
-    height: 5px;
+.fa-bar{
+    width: 30px;
+    height: 4px;
     background-color: white;
     margin: 6px 0;
 }
