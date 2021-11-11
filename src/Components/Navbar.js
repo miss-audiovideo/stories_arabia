@@ -18,7 +18,7 @@ const Navbar = () => {
                             <div className="fa-bar"></div>
                         </div>
                     </div>
-                    {/* <div className="humburger-menu">
+                    <div className="humburger-menu">
                         <ul>
                             <li>
                                 <Link to="/products">
@@ -36,7 +36,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </ul>
-                    </div> */}
+                    </div>
                 </nav>
             </Router>
             <style jsx>{`
