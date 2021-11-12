@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-
+import "animate.css";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 
@@ -11,19 +11,19 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path="/">
-          <header>
-          <Navbar />
-            <Main />
+            <header>
+              <Navbar />
+              <Main />
             </header>
           </Route>
           <Route exact path="/products">
-          <Navbar />
+            <Navbar />
           </Route>
           <Route exact path="/about">
-          <Navbar />
+            <Navbar />
           </Route>
           <Route exact path="/contact">
-          <Navbar />
+            <Navbar />
           </Route>
         </Switch>
       </Router>

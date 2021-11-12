@@ -217,42 +217,42 @@ header::after {
   z-index: -1;
 }
 /* NavBar */
-.NavBar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 75px;
-    background: transparent;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: transparent;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
 }
-.brand{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    cursor: pointer;
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  cursor: pointer;
 }
-.humberger-btn{
-    display: block;
-    color: white;
+.humberger-btn {
+  display: block;
+  color: white;
 }
-.fa-bar{
-    width: 32px;
-    height: 6px;
-    border-radius: 50px;
-    background-color: white;
-    margin: 5px 0;
+.fa-bar {
+  width: 32px;
+  height: 6px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 5px 0;
 }
-.humburger-menu-hidden{
+/* .humburger-menu-hidden{
     display: none;
-}
-.humburger-menu{
+} */
+/* .humburger-menu{
     position: relative;
     background-color:#fff;
     position:fixed;
@@ -263,21 +263,46 @@ header::after {
     top:0px;
     left:0px;
     z-index:1000;
+} */
+/* TODO */
+
+.humburger-menu-hidden {
+  position: absolute;
+  right: -100%;
+  transition: 2s;
+  /* transition: 2s !important; */
+  /* animation: bounce; referring directly to the animation's @keyframe declaration */
+  /* animation-duration: 2s; don't forget to set a duration! */
 }
-.humburger-menu ul{
+.humburger-menu {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  transition: 2s !important;
+  z-index: 1000;
+}
+/* TODO */
+.humburger-menu ul {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.humburger-menu ul li a{
-    color: black;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    cursor: pointer;
-    line-height: 60px;
+.humburger-menu ul li a {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  cursor: pointer;
+  line-height: 60px;
 }
 .close-btn {
   position: absolute;
@@ -290,10 +315,11 @@ header::after {
 .close-btn:hover {
   opacity: 1;
 }
-.close-btn:before, .close-btn:after {
+.close-btn:before,
+.close-btn:after {
   position: absolute;
   left: 15px;
-  content: ' ';
+  content: " ";
   height: 33px;
   width: 2px;
   background-color: #333;
@@ -313,7 +339,7 @@ header::after {
   object-fit: cover;
   z-index: -2;
 }
-.heading{
+.heading {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -322,19 +348,19 @@ header::after {
   text-align: center;
   width: 70%;
 }
-.heading h1{
+.heading h1 {
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-.heading h3{
+.heading h3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 34px;
 }
-.video-overlay{
+.video-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
