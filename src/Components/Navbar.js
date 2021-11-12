@@ -20,14 +20,14 @@ const Navbar = () => {
                         <Link to="/">
                             <div className="brand">ARABIA</div>
                         </Link>
-                        <a className="humburger-btn" type="button" onClick={toggleMenu}>
+                        <div className="humburger-btn" type="button" onClick={toggleMenu}>
                             <div className="fa-bar"></div>
                             <div className="fa-bar"></div>
                             <div className="fa-bar"></div>
-                        </a>
+                        </div>
                     </div>
                     <div className={style}>
-                        <a className="close-btn" type="button" onClick={toggleMenu}></a>
+                        <div className="close-btn" type="button" onClick={toggleMenu}></div>
                         <ul>
                             <li>
                                 <Link to="/products">
