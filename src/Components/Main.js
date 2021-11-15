@@ -1,6 +1,5 @@
 import React from "react";
 import video from "./Videos/Shoes Ad.MOV";
-import "animate.css";
 
 const Main = () => {
   return (
