@@ -501,62 +501,61 @@ header::after {
   margin: auto;
 }
 /* Video Gallery */
-.video-gallery{
+.video-gallery {
   padding: 5% 5%;
   background: var(--clr-white);
   position: relative;
 }
-.video-gallery h1{
+.video-gallery h1 {
   color: var(--clr-primary-5);
   text-align: center;
   font-size: 5vw;
 }
-.video-section{
+.video-section {
   padding: 5%;
 }
-.video-gallery .video-section-1{
+.video-gallery .video-section-1 {
   display: grid;
   height: 500px;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  gap: .25rem;
+  gap: 0.25rem;
   grid-template-areas: "video-1 video-2";
 }
-.video-gallery .video-section-1 .video-1{
+.video-gallery .video-section-1 .video-1 {
   grid-area: video-1;
 }
-.video-gallery .video-section-1 .video-2{
+.video-gallery .video-section-1 .video-2 {
   grid-area: video-2;
   display: grid;
-  gap: .25rem;
+  gap: 0.25rem;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "a a""b c";
+  grid-template-areas: "a a" "b c";
 }
-.video-gallery .video-section-1 .video-2 .a{
+.video-gallery .video-section-1 .video-2 .a {
   grid-area: a;
 }
-.video-gallery .video-section-1 .video-2 .b{
+.video-gallery .video-section-1 .video-2 .b {
   grid-area: b;
 }
-.video-gallery .video-section-1 .video-2 .c{
+.video-gallery .video-section-1 .video-2 .c {
   grid-area: c;
 }
-.video-gallery .video-section-2{
+.video-gallery .video-section-2 {
   display: grid;
   height: 250px;
-  padding-top: .25rem;
-  gap: .25rem;
+  padding-top: 0.25rem;
+  gap: 0.25rem;
   grid-template-columns: 1.7fr 1.3fr;
   grid-template-rows: 1fr;
   grid-template-areas: "video-1 video-2";
 }
-.video-gallery .portfolio-btn{
+.video-gallery .portfolio-btn {
   justify-content: center;
-  padding-top: 6%;
   position: absolute;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* Footer */
@@ -567,67 +566,87 @@ header::after {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.footer-content-top-left{
+.footer-content-top-left {
   margin: auto 0;
 }
-.footer-content-top-left .brand{
+.footer-content-top-left .brand {
   padding: 0 0 20px 0;
   font-size: 50px;
 }
-.footer-content-top-left .brand-email{
+.footer-content-top-left .brand-email {
   padding: 0 0 10px 0;
   color: var(--clr-white);
 }
-.footer-content-top-left .brand-number{
+.footer-content-top-left .brand-number {
   padding: 0 0 10px 0;
   color: var(--clr-white);
 }
-.footer-content-top-left .brand-icons span{
+.footer-content-top-left .brand-icons span {
   padding: 0 20px 10px 0;
   color: var(--clr-white);
 }
-.footer-content-top-right{
+.footer-content-top-right {
   margin: auto 0;
 }
-.footer-content-top-right p{
+.footer-content-top-right p {
   color: var(--clr-white);
   font-size: 1.2em;
   padding: 0 0 10px 0;
 }
-.footer-content-top-right .brand-works{
-  color: var(--clr-white);  
+.footer-content-top-right .brand-works {
+  color: var(--clr-white);
   padding: 0 0 10px 0;
-  font-size: .9em;
+  font-size: 0.9em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 1vw;
 }
-.footer-content-top-right hr{
+.footer-content-top-right hr {
   border: 1px solid var(--clr-white);
   margin: 0 0 10px 0;
 }
-.footer-content-top-right .brand-tags{
+.footer-content-top-right .brand-tags {
   color: var(--clr-white);
   margin: 0 0 10px 0;
-  font-size: .9em;
+  font-size: 0.9em;
 }
-.footer-content-bottom{
+.footer-content-bottom {
   background-color: var(--clr-white);
   color: var(--clr-primary-5);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
-.footer-content-bottom-left{
-  margin: 10px auto ;
+.footer-content-bottom-left {
+  margin: 10px auto;
 }
-.footer-content-bottom-left h6{
+.footer-content-bottom-left h6 {
   font-weight: 300;
 }
-.footer-content-bottom-right{
-  margin: 10px auto ;
+.footer-content-bottom-right {
+  margin: 10px auto;
 }
-.footer-content-bottom-right h6{
+.footer-content-bottom-right h6 {
   font-weight: 300;
+}
+@media (max-width: 764px) {
+  .footer-content-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-content-top-left {
+    margin: auto;
+  }
+  .footer-content-bottom {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 0;
+  }
+  .footer-content-bottom-left {
+    margin: 5px auto 5px auto;
+  }
+  .footer-content-bottom-right {
+    margin: 0 auto 5px auto;
+  }
 }
