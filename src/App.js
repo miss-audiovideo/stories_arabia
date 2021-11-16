@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
 import Brands from "./Components/Brands";
+import VideoGallery from "./Components/VideoGallery";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
             </header>
               <Service />
               <Brands />
+              <VideoGallery />
           </Route>
           <Route exact path="/products">
             <Navbar />
@@ -29,6 +32,7 @@ const App = () => {
             <Navbar />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </>
   );
