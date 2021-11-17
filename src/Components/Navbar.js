@@ -48,9 +48,9 @@ const Navbar = () => {
                     </div>
                 </nav>
             </Router>
-            <style jsx>{`
+            {/* <style jsx>{`
                 
-            `}</style>
+            `}</style> */}
         </>
     );
 };
