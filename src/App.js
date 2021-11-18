@@ -9,6 +9,8 @@ import VideoGallery from "./Components/VideoGallery";
 import Featured from "./Components/Featured";
 import Blog from "./Components/Blog";
 import Gallery from "./Components/Gallery";
+import ContactHeader from "./Components/ContactHeader";
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 const App = () => {
@@ -21,12 +23,12 @@ const App = () => {
               <Navbar />
               <Main />
             </header>
-              <Service />
-              <Brands />
-              <VideoGallery />
-              <Featured />
-              <Blog />
-              <Gallery />
+            <Service />
+            <Brands />
+            <VideoGallery />
+            <Featured />
+            <Blog />
+            <Gallery />
           </Route>
           <Route exact path="/products">
             <Navbar />
@@ -35,7 +37,11 @@ const App = () => {
             <Navbar />
           </Route>
           <Route exact path="/contact">
-            <Navbar />
+            <header>
+              <Navbar />
+              <ContactHeader />
+            </header>
+            <Contact />
           </Route>
         </Switch>
         <Footer />

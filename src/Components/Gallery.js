@@ -25,6 +25,18 @@ const Gallery = () => {
             <div className="slide">
               <img src={image} alt=""></img>
             </div>
+            <div className="slide">
+              <img src={image} alt=""></img>
+            </div>
+            <div className="slide">
+              <img src={image} alt=""></img>
+            </div>
+            <div className="slide">
+              <img src={image} alt=""></img>
+            </div>
+            <div className="slide">
+              <img src={image} alt=""></img>
+            </div>
           </div>
         </div>
       </div>
