@@ -780,13 +780,12 @@ header::after {
   }
   .blog-left img{
     object-fit: cover;
-    height: 30vw;
+    height: 45vw;
     width: 100%;
   }
   .blog-left .blog-date{
-    top: 0%;
-    transform: translate(-50%, 20%);
-    height: 22vw;
+    transform: translate(-50%, -50%);
+    height: 25vw;
   }
   .blog-date h3{
     font-size:.8em;
