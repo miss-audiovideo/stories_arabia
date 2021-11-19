@@ -5,8 +5,10 @@ import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
 import Brands from "./Components/Brands";
+import VideoProdServices from "./Components/VideoProdServices";
 import VideoGallery from "./Components/VideoGallery";
-import Featured from "./Components/Featured";
+// import Featured from "./Components/Featured";
+import FeaturedServices from "./Components/FeaturedServices";
 import Blog from "./Components/Blog";
 import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
@@ -25,8 +27,10 @@ const App = () => {
             </header>
             <Service />
             <Brands />
+            <VideoProdServices />
             <VideoGallery />
-            <Featured />
+            {/* <Featured /> */}
+            <FeaturedServices />
             <Blog />
             <Gallery />
           </Route>
