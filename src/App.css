@@ -231,7 +231,7 @@ header::after {
 .brand {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 10px;
   cursor: pointer;
@@ -979,7 +979,7 @@ header::after {
 
 /* Footer */
 .footer-content-top {
-  background: var(--clr-primary-5);
+  background:#7CA1A0;
   padding: 5% 10%;
   color: var(--clr-grey-100);
   display: grid;
@@ -994,26 +994,26 @@ header::after {
 }
 .footer-content-top-left .brand-email {
   padding: 0 0 10px 0;
-  color: var(--clr-white);
+  color: var(--clr-black);
 }
 .footer-content-top-left .brand-number {
   padding: 0 0 10px 0;
-  color: var(--clr-white);
+  color: var(--clr-black);
 }
 .footer-content-top-left .brand-icons span {
   padding: 0 20px 10px 0;
-  color: var(--clr-white);
+  color: var(--clr-black);
 }
 .footer-content-top-right {
   margin: auto 0;
 }
 .footer-content-top-right p {
-  color: var(--clr-white);
+  color: var(--clr-black);
   font-size: 1.2em;
   padding: 0 0 10px 0;
 }
 .footer-content-top-right .brand-works {
-  color: var(--clr-white);
+  color: var(--clr-black);
   padding: 0 0 10px 0;
   font-size: 0.9em;
   display: grid;
@@ -1022,11 +1022,11 @@ header::after {
   grid-gap: 1vw;
 }
 .footer-content-top-right hr {
-  border: 1px solid var(--clr-white);
+  border: 1px solid var(--clr-black);
   margin: 0 0 10px 0;
 }
 .footer-content-top-right .brand-tags {
-  color: var(--clr-white);
+  color: var(--clr-black);
   margin: 0 0 10px 0;
   font-size: 0.9em;
 }
