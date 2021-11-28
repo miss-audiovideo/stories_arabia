@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -12,13 +13,13 @@ const Footer = () => {
                             <div className="brand-number"><i className="fa fa-phone"/>+966-5-567-567-567</div>
                             <div className="brand-icons">
                                 <span>
-                                    <i className="fa fa-facebook">F</i>
+                                    <FaFacebook />
                                 </span>
                                 <span>
-                                    <i className="fa fa-instagram">I</i>
+                                    <FaInstagram />
                                 </span>
                                 <span>
-                                    <i className="fa fa-twitter">T</i>
+                                    <FaTwitter />
                                 </span>
                             </div>
                         </div>

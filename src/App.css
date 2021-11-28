@@ -1266,7 +1266,8 @@ header::after {
   display: flex;
   justify-content: center;
   align-items: justify;
- 
+  padding: 2% 0;
+  
 }
 
 .content .title {
@@ -1307,6 +1308,12 @@ ul li {
   text-align: center;
   color: #fff;
   font-size: 0.8rem;
+}
+.circle svg{
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+  margin-top: 16px;
 }
 
 .contact-section {

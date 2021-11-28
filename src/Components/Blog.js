@@ -1,6 +1,7 @@
 import React from "react";
 import image from "./Images/feat-1.jpg";
 import MapContainer from "./mapAPI";
+import { FaPhone, FaClock, FaEnvelope, FaHome } from 'react-icons/fa';
 
 const Blog = () => {
   const containerStyle = {
@@ -87,7 +88,7 @@ const Blog = () => {
           <ul>
             <li>
               <div class="circle">
-                <i class="fas fa-home"></i>
+                <FaHome />
               </div>{" "}
               Premises No.: EO 08, Floor: 1,
               <br /> Building: In5 Media
@@ -96,24 +97,24 @@ const Blog = () => {
             </li>
             <li>
               <div class="circle">
-                <i class="fas fa-phone"></i>
+                <FaPhone/>
               </div>{" "}
               +971 55 555 4836
             </li>
             <li>
               <div class="circle">
-                <i class="fas fa-envelope"></i>
+                <FaEnvelope/>
               </div>{" "}
               info@storiesarabia.com
             </li>
             <li>
               <div class="circle">
-                <i class="fas fa-clock"></i>
+                <FaClock/>
               </div>{" "}
               Mon - Fri 8:00 AM to 4:00 PM
             </li>
           </ul>
-          <div class="contact-section" style={containerStyle}>
+          <div class="map-section" style={containerStyle}>
             {/*  <input type="text" placeholder="Name"/>*/}
             {/*<input type="email" placeholder="E-mail"/>*/}
             {/*<textarea placeholder="Write your message..."></textarea>*/}
