@@ -15,8 +15,7 @@ const Service = () => {
               </div>
             </div>
             <div className="service-text">
-              <h1>New Evolution Videos</h1>
-              <h2>OUR MISSION IS TO CREATE, INNOVATE AND TRANSFORM.</h2>
+              <h1>About Us</h1>
               <hr />
               <p> We are a result-oriented, all-in-one digital marketing agency that helps you bring in high-quality traffic and boost your sales with our personalized strategic marketing campaigns.
 </p>
