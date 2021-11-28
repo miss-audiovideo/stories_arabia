@@ -21,44 +21,43 @@ const VideoProdServices = () => {
               <div>
                 <img src={videoIcon} alt="icon" width="100%" />
               </div>
-              <h3 style={{ fontWeight: "500" }}>Priceless Video Production</h3>
+              <h3 style={{ fontWeight: "500" }}>Influencer Marketing
+</h3>
               <p>
-                While our videos are unsurpassed, our prices are very
-                competitive. In fact, we can bring our video production costs
-                well below the rest.
+              We’ll help you bring in the right influencers for your business to deliver real engagement and make a positive impact on your sales.
+
+
               </p>
             </div>
             <div className="video-services-item">
               <div>
                 <img src={starIcon} alt="icon" width="100%" />
               </div>
-              <h3 style={{ fontWeight: "500" }}>Famous Names</h3>
+              <h3 style={{ fontWeight: "500" }}>Promotion Campaigns using Social media Influencers</h3>
               <p>
-                We demand the best in the business. That's why our crew have
-                years of experience and industry awards. We are San Diego Video
-                Production.
+              Our cross-functional team will help deliver strategic campaigns using social media influencers that are designed to keep your business at the top of your customers' minds.
+
               </p>
             </div>
             <div className="video-services-item">
               <div>
                 <img src={reviewIcon} alt="icon" width="100%" />
               </div>
-              <h3 style={{ fontWeight: "500" }}>Rave Reviews</h3>
+              <h3 style={{ fontWeight: "500" }}>Product Launch Strategies using Social media Influencers</h3>
               <p>
-                We work hand-in-hand with our clients every step of the way.
-                Now, read what they have to say about the relationships we’ve
-                developed.
+              We’ll help you prepare for a successful launch by curating an end to end marketing plan to successfully announce your product to the world.
               </p>
             </div>
             <div className="video-services-item">
               <div>
                 <img src={vrIcon} alt="icon" width="100%" />
               </div>
-              <h3 style={{ fontWeight: "500" }}>Beyond Reality</h3>
+              <h3 style={{ fontWeight: "500" }}>Brand Activation Campaigns using Social media Influencers
+</h3>
               <p>
-                For exciting, immersive video we also have all the equipment to
-                produce virtual reality videos. Both 180 and 360 landscapes in
-                vivid detail.
+              Let it be building and deepening your relationship with your clients or transforming the perception of your brand, we’ll create brand activation solutions that run the extra mile.
+
+
               </p>
             </div>
           </div>
