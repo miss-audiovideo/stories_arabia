@@ -1,18 +1,6 @@
-import React, { useEffect } from "react";
-// import imgOne from "../Components/images/userone.png";
-// import userone from "./Images/userone.png";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import React from "react";
 import imgOne from "./Images/userone.png";
 function Testimonial() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     offset: 300,
-  //     duration: 2000,
-  //     easing: "ease-in-out",
-  //     delay: 200,
-  //   });
-  // });
   return (
     <>
       <div data-aos="fade-in" className="testimonials-new">

@@ -12,7 +12,9 @@ const Main = () => {
           Stories Arabia
         </h1>
         <h3 className="animate__animated animate__fadeInUp animate__delay-4s">
-          A one-stop site for all your digital marketing needs.
+          A one-stop site for all your digital marketing needs. An In5 incubated
+          digital marketing startup aimed to solve your content development and
+          influencer marketing needs.
         </h3>
       </div>
       <div className="video-overlay"></div>
