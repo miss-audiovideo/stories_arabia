@@ -12,8 +12,8 @@ const Main = () => {
           Stories Arabia
         </h1>
         <h3 className="animate__animated animate__fadeInUp animate__delay-4s">
-          Ut aliquam purus sit amet. Velit sed ullamcorper morbi tincidunt
-          ornare.
+        A one-stop site for all your digital marketing needs. 
+
         </h3>
       </div>
       <div className="video-overlay"></div>

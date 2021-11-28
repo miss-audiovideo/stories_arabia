@@ -18,8 +18,10 @@ const Service = () => {
               <h1>New Evolution Videos</h1>
               <h2>OUR MISSION IS TO CREATE, INNOVATE AND TRANSFORM.</h2>
               <hr />
-              <p>From Virtual and Augmented Reality to AI and drones, we constantly embrace the latest cutting-edge technology to deliver exceptional video production services. </p>
-              <p>The powerful and transformative medium of visual storytelling is at the root of our mission. We create content that’s inspiring, thought provoking and visually compelling, while maximizing your company’s ROI.</p>
+              <p> We are a result-oriented, all-in-one digital marketing agency that helps you bring in high-quality traffic and boost your sales with our personalized strategic marketing campaigns.
+</p>
+              <p>We create content that’s inspiring, thought-provoking, and visually compelling by combining a data-driven approach with knowledge gained from years in digital marketing to deliver outstanding results to our clients.
+We work closely with all our clients to create visible results through our expertise in digital strategy and performance-driven marketing.</p>
               <div className="service-btn">
                 <button className="btn btn-primary">Our Services</button>
                 <button className="btn btn-primary">Contact Us</button>
