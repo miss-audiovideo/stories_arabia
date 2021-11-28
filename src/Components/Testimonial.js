@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import imgOne from "./Images/userone.png";
 import imgTwo from "./Images/usertwo.png";
 import imgThree from "./Images/userthree.png";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import testimonial from "../Components/images/Testimonials BG.png";
 
 function Testimonial() {
   // useEffect(() => {
@@ -18,7 +15,7 @@ function Testimonial() {
   return (
     <>
       <div className="testimonials">
-        <h1 className="animate__animated animate__zoomIn animate__infinite animate__slower">
+        {/* <h1 className="animate__animated animate__zoomIn animate__infinite animate__slower">
           Less process,
           <br />
           more productivity
@@ -28,7 +25,7 @@ function Testimonial() {
           <br /> requests, no more missed deadlines. We've simplified the <br />
           design process so you can see results faster and we can
           <br /> put more time into what we do best, design...
-        </p>
+        </p> */}
 
         <div data-aos="fade-in" className="testimonials">
           <h2
