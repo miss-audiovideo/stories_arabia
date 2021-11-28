@@ -1,6 +1,7 @@
 import React from "react";
 // import video from "./Videos/Shoes Ad.MOV";
-import Videoone from "./Videos/residence.mp4";
+import Videoone from "./Videos/marina.mp4";
+
 const Main = () => {
   return (
     <>
