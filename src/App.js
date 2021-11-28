@@ -14,6 +14,7 @@ import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+// import Testimonial from "./Components/Testimonial";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        {/* <Testimonial /> */}
         <Footer />
       </Router>
     </>
