@@ -9,7 +9,7 @@ const ContactHeader = () => {
       </video>
       <div className="contact-heading">
         <h1 className="animate__animated animate__fadeInUp animate__delay-2s">
-         Talk To Us!
+          Talk To Us!
         </h1>
         <h3 className="animate__animated animate__fadeInUp animate__delay-4s">
           Ut aliquam purus sit amet. Velit sed ullamcorper morbi tincidunt
