@@ -1,7 +1,9 @@
 import React from "react";
 import image from "./Images/feat-1.jpg";
-
+import {GoogleApiWrapper} from 'google-maps-react';
 const Blog = () => {
+
+  
   return (
     <>
       <div className="blog-section">
@@ -50,6 +52,35 @@ Subscribe to our newsletter and get a first hand look at valuable insights about
           </div>
         </div>
       </div>
+
+
+
+
+      <h1 class="titles">GET IN TOUCH</h1>    
+<div class="content">
+  
+  <div class="contact-info">
+    
+    <ul>
+      <li><div class="circle"><i class="fas fa-home"></i></div> Premises No.: EO 08, Floor: 1,<br/> Building: In5 Media
+<br/>Dubai,United Arab Emirates</li>
+      <li><div class="circle"><i class="fas fa-phone"></i></div> +971 55 555 4836</li>
+      <li><div class="circle"><i class="fas fa-envelope"></i></div>  info@storiesarabia.com</li>
+      <li><div class="circle"><i class="fas fa-clock"></i></div> Mon - Fri 8:00 AM to 4:00 PM</li>
+    </ul>
+    <div class="contact-section">
+     {/*  <input type="text" placeholder="Name"/>*/}
+      {/*<input type="email" placeholder="E-mail"/>*/}
+      {/*<textarea placeholder="Write your message..."></textarea>*/}
+      {/*<input type="submit" value="Send"/>*/}
+
+      {/*add google maps here*/
+      
+      }
+    </div>
+  </div>
+</div>
+   
     </>
   );
 };
