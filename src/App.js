@@ -50,7 +50,6 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
-
         <Footer />
       </Router>
     </>
