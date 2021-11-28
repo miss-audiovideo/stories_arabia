@@ -1,9 +1,9 @@
 import React from "react";
 import videoIcon from "./Images/icons/video_library_black_24dp.png";
 import reviewIcon from "./Images/icons/outline_reviews_black_24dp.png";
-import buildingIcon from "./Images/icons/outline_location_city_black_24dp.png";
+// import buildingIcon from "./Images/icons/outline_location_city_black_24dp.png";
 import starIcon from "./Images/icons/outline_star_border_black_24dp.png";
-import studioIcon from "./Images/icons/outline_video_camera_front_black_24dp.png";
+// import studioIcon from "./Images/icons/outline_video_camera_front_black_24dp.png";
 import vrIcon from "./Images/icons/vr.png";
 
 const VideoProdServices = () => {
@@ -59,26 +59,6 @@ const VideoProdServices = () => {
                 For exciting, immersive video we also have all the equipment to
                 produce virtual reality videos. Both 180 and 360 landscapes in
                 vivid detail.
-              </p>
-            </div>
-            <div className="video-services-item">
-              <div>
-                <img src={studioIcon} alt="icon" width="100%" />
-              </div>
-              <h3 style={{ fontWeight: "500" }}>Major Studio Services</h3>
-              <p>
-                Corporate video, TV commercials, Sales video, Live streaming
-                video, Interactive video, Social media, VR, AR, AI and more.
-              </p>
-            </div>
-            <div className="video-services-item">
-              <div>
-                <img src={buildingIcon} alt="icon" width="100%" />
-              </div>
-              <h3 style={{ fontWeight: "500" }}>Hollywood In San Diego</h3>
-              <p>
-                We have the stages, equipment and creative talent to produce any
-                video. No matter how big or small a production.
               </p>
             </div>
           </div>
