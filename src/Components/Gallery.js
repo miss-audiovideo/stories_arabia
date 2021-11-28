@@ -5,36 +5,36 @@ const Gallery = () => {
   return (
     <>
       <div>
-        <div className="slider">
-          <div className="slide-track">
-            <div className="slide">
+        <div>
+          <div className="rider-track">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
-            <div className="slide">
+            <div className="rider">
               <img src={image} alt=""></img>
             </div>
           </div>
