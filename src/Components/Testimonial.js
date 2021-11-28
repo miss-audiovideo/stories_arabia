@@ -120,7 +120,7 @@ function Testimonial() {
         }
         .testimonials p {
           text-align: center;
-          color: white;
+          color: black;
         }
         .testimonials h2 {
           font-size: 55px;
@@ -182,8 +182,10 @@ function Testimonial() {
           padding-top: 20px;
         }
         .text p {
+          text-align: left;
           font-size: 14px;
           padding-top: 20px;
+          padding-left: 20px;
         }
         @media screen and (max-width: 1150px) {
           .cardsTest {
