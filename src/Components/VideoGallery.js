@@ -5,6 +5,7 @@ import marina from "./Videos/marina.mp4";
 import shoes from "./Videos/shoes.MOV";
 import residence from "./Videos/residence.mp4";
 import christmas from "./Videos/christmas.mp4";
+// import travel from "./Videos/travel.webm";
 
 const VideoGallery = () => {
   return (
@@ -18,7 +19,7 @@ const VideoGallery = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src={marina}
+                  src={residence}
                   title="video1"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -30,7 +31,7 @@ const VideoGallery = () => {
                   className="a"
                   width="100%"
                   height="100%"
-                  src={residence}
+                  src={christmas}
                   title="video2"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -50,7 +51,7 @@ const VideoGallery = () => {
                   className="c"
                   width="100%"
                   height="100%"
-                  src={residence}
+                  src={christmas}
                   title="video4"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -63,7 +64,7 @@ const VideoGallery = () => {
                 className="a"
                 width="100%"
                 height="100%"
-                src={guni}
+                src={mi}
                 title="video5"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
