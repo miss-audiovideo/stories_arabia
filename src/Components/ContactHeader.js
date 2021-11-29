@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./Videos/Shoes Ad.MOV";
+import video from "./Videos/shoes.MOV";
 
 const ContactHeader = () => {
   return (
@@ -16,7 +16,7 @@ const ContactHeader = () => {
           ornare.
         </h3>
         <h5 className="animate__animated animate__fadeInUp animate__delay-6s">
-        Give us a call or fill out the email form below.
+          Give us a call or fill out the email form below.
         </h5>
       </div>
     </>
