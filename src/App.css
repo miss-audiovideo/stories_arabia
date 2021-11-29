@@ -1258,16 +1258,15 @@ header::after {
   transform: translateX(-33%);
 }
 
-.titles{
+.titles {
   padding-top: 50px;
   padding-bottom: 30px;
 }
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: justify;
   padding: 2% 0;
-  
 }
 
 .content .title {
@@ -1285,9 +1284,10 @@ ul {
   flex-direction: column;
 }
 
-.titles{
+.titles {
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 30px;
 }
 ul li {
@@ -1309,7 +1309,7 @@ ul li {
   color: #fff;
   font-size: 0.8rem;
 }
-.circle svg{
+.circle svg {
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -1331,8 +1331,8 @@ ul li {
 }
 
 .contact-section textarea,
-.contact-section input[type=text],
-.contact-section input[type=email] {
+.contact-section input[type="text"],
+.contact-section input[type="email"] {
   background: #383838;
   padding: 10px;
   outline: none;
@@ -1340,7 +1340,7 @@ ul li {
   color: #fff;
 }
 
-.contact-section input[type=submit] {
+.contact-section input[type="submit"] {
   grid-column: 2 / -1;
   width: 50%;
   justify-self: end;
@@ -1351,21 +1351,20 @@ ul li {
   color: #fff;
   font-weight: 700;
   letter-spacing: 1px;
- 
 }
 
 @media screen and (max-width: 600px) {
   .contact-info {
     flex-direction: column;
   }
-  
+
   .contact-section {
     margin-top: 30px;
   }
-  
 }
 
-.video-gallery h3{
+.video-gallery h3 {
   line-height: 40px;
-
+  padding-top: 20px;
+  /* display: flex; */
 }
