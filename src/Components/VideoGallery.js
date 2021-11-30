@@ -41,7 +41,7 @@ const VideoGallery = () => {
                   className="b"
                   width="100%"
                   height="100%"
-                  src={guni}
+                  src={marina}
                   title="video3"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -51,7 +51,7 @@ const VideoGallery = () => {
                   className="c"
                   width="100%"
                   height="100%"
-                  src={christmas}
+                  src={guni}
                   title="video4"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -64,7 +64,7 @@ const VideoGallery = () => {
                 className="a"
                 width="100%"
                 height="100%"
-                src={mi}
+                src={residence}
                 title="video5"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
