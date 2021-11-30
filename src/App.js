@@ -7,6 +7,7 @@ import Service from "./Components/Service";
 import Brands from "./Components/Brands";
 import VideoProdServices from "./Components/VideoProdServices";
 import VideoGallery from "./Components/VideoGallery";
+import Projects from "./Components/Projects";
 // import Featured from "./Components/Featured";
 import FeaturedServices from "./Components/FeaturedServices";
 import Blog from "./Components/Blog";
@@ -14,7 +15,7 @@ import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-
+// import NavMenu from "./Components/NavMenu";
 
 const App = () => {
   return (
@@ -24,16 +25,18 @@ const App = () => {
           <Route exact path="/">
             <header>
               <Navbar />
+              {/* <NavMenu /> */}
               <Main />
             </header>
             <Service />
             <Brands />
             <VideoProdServices />
             <VideoGallery />
+            <Projects />
             {/* <Featured /> */}
             <FeaturedServices />
             <Blog />
-          
+
             <Gallery />
           </Route>
           <Route exact path="/products">
