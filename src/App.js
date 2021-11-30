@@ -15,7 +15,7 @@ import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-// import NavMenu from "./Components/NavMenu";
+import NavMenu from "./Components/NavMenu";
 
 const App = () => {
   return (
@@ -24,8 +24,8 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <header>
-              <Navbar />
-              {/* <NavMenu /> */}
+              {/* <Navbar /> */}
+              <NavMenu />
               <Main />
             </header>
             <Service />
