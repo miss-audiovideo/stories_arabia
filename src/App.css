@@ -1368,3 +1368,82 @@ ul li {
   padding-top: 20px;
   /* display: flex; */
 }
+/* -------------------TODO Projects -------------------- */
+
+.projects {
+  /* display: flex; */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 50px 0;
+}
+.projects-title {
+  display: flex;
+  justify-content: center;
+}
+.projects-title h1 {
+  padding: 20px 0;
+  color: #49a6e9;
+}
+.projects-title h1 span {
+  color: #102a42;
+}
+.projects-description {
+  width: 70%;
+  /* background: yellow; */
+  margin: auto;
+}
+.projects-description h3 {
+  text-align: center;
+  color: #272a42;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 34px;
+}
+.projects-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.projects-list-left {
+  /* background: pink; */
+  padding: 10px 0;
+  flex: 0.5;
+}
+.project-links {
+  display: flex;
+  justify-content: center;
+  color: #617d98;
+  font-weight: bold;
+  text-align: center;
+  /* padding: 10px 0; */
+}
+.projects-list-right {
+  /* background: violet; */
+  padding: 10px 0;
+  flex: 0.5;
+}
+@media screen and (min-device-width: 340px) and (max-device-width: 620px) {
+  .project-links {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* padding-left: 10px; */
+    margin: 0;
+    padding: 0;
+  }
+  .projects-list-left {
+    flex: 1;
+  }
+  .projects-list-left ul li {
+    display: flex;
+    padding-left: 50px;
+  }
+  .projects-list-right {
+    flex: 1;
+  }
+  .projects-list-right ul li {
+    display: flex;
+    padding-left: 50px;
+  }
+}
