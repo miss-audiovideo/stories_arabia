@@ -25,11 +25,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-content-top-right">
                                 <p>If you'd like to talk to us about a project, we would love to hear from you. Let's make films!</p>
-                                <div className="brand-works">
-                                    <span>Chicago Video Production</span>
-                                    <span>Los Angeles Video Production</span>
-                                    <span>New York Video Production</span>
-                                </div>
+                               
                                 <hr />
                                 <div className="brand-tags">Video Production - Corporate Video Production - Commercial Video - Website Video Production - Promo Videos - Post Production</div>
                             
