@@ -2,9 +2,8 @@ import React from "react";
 import guni from "./Videos/guni.mp4";
 import mi from "./Videos/mi.mp4";
 import marina from "./Videos/marina.mp4";
-import shoes from "./Videos/shoes.MOV";
 import residence from "./Videos/residence.mp4";
-import christmas from "./Videos/christmas.mp4";
+import christmas from "./Videos/christmas1.mp4";
 // import travel from "./Videos/travel.webm";
 
 const VideoGallery = () => {
@@ -14,31 +13,30 @@ const VideoGallery = () => {
         <div className="container-2">
           <h1>Video Gallery</h1>
           <div className="video-section">
-            <div className="video-section-1">
-              <div className="video-1">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src={residence}
-                  title="video1"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="video-2">
-                <iframe
-                  className="a"
-                  width="100%"
-                  height="100%"
-                  src={christmas}
-                  title="video2"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <iframe
-                  className="b"
+            <div className="video-1">
+              <iframe
+                width="100%"
+                height="100%"
+                src={residence}
+                title="video1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="video-2">
+              <iframe
+                width="100%"
+                height="100%"
+                src={christmas}
+                title="video2"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="video-3">
+              <iframe
                   width="100%"
                   height="100%"
                   src={marina}
@@ -47,8 +45,9 @@ const VideoGallery = () => {
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-                <iframe
-                  className="c"
+            </div>
+            <div className="video-4">
+              <iframe
                   width="100%"
                   height="100%"
                   src={guni}
@@ -56,12 +55,10 @@ const VideoGallery = () => {
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
-              </div>
+              ></iframe>
             </div>
-            <div className="video-section-2">
+            <div className="video-5">
               <iframe
-                className="a"
                 width="100%"
                 height="100%"
                 src={residence}
@@ -70,8 +67,9 @@ const VideoGallery = () => {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+            </div>
+            <div className="video-6">
               <iframe
-                className="b"
                 width="100%"
                 height="100%"
                 src={marina}

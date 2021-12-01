@@ -111,6 +111,9 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+iframe {
+  display: block;
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -512,51 +515,16 @@ header::after {
   text-align: center;
   font-size: 5vw;
 }
+
 .video-section {
-  padding: 5%;
-}
-.video-gallery .video-section-1 {
   display: grid;
-  height: 500px;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
-  gap: 0.25rem;
-  grid-template-areas: "video-1 video-2";
-}
-.video-gallery .video-section-1 .video-1 {
-  grid-area: video-1;
-}
-.video-gallery .video-section-1 .video-2 {
-  grid-area: video-2;
-  display: grid;
-  gap: 0.25rem;
-  grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "a a" "b c";
-}
-.video-gallery .video-section-1 .video-2 .a {
-  grid-area: a;
-}
-.video-gallery .video-section-1 .video-2 .b {
-  grid-area: b;
-}
-.video-gallery .video-section-1 .video-2 .c {
-  grid-area: c;
-}
-.video-gallery .video-section-2 {
-  display: grid;
-  height: 250px;
-  padding-top: 0.25rem;
-  gap: 0.25rem;
-  grid-template-columns: 1.7fr 1.3fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "video-1 video-2";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
 }
 .video-gallery .portfolio-btn {
-  justify-content: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 2rem auto;
+  /* transform: translate(-50%, -50%); */
 }
 @media (max-width: 764px) {
   .video-gallery {
@@ -567,51 +535,13 @@ header::after {
   }
   .video-section {
     display: grid;
-    height: 1000px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
   }
-  .video-gallery .video-section-1 {
-    display: grid;
-    height: 640px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr;
-    gap: 0.25rem;
-    grid-template-areas: "video-1" "video-2";
-  }
-  .video-gallery .video-section-1 .video-1 {
-    grid-area: video-1;
-  }
-  .video-gallery .video-section-1 .video-2 {
-    grid-area: video-2;
-    display: grid;
-    gap: 0.25rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "a" "b" "c";
-  }
-  .video-gallery .video-section-1 .video-2 .a {
-    grid-area: a;
-  }
-  .video-gallery .video-section-1 .video-2 .b {
-    grid-area: b;
-  }
-  .video-gallery .video-section-1 .video-2 .c {
-    grid-area: c;
-  }
-  .video-gallery .video-section-2 {
-    display: grid;
-    height: 320px;
-    padding-top: 0.25rem;
-    gap: 0.25rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "video-1" "video-2";
-  }
+
   .video-gallery .portfolio-btn {
-    justify-content: center;
-    position: absolute;
-    left: 50%;
+    margin: 2rem auto;
   }
 }
 /* Featured Services */
