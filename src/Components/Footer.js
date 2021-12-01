@@ -27,7 +27,7 @@ const Footer = () => {
                                 <p>If you'd like to talk to us about a project, we would love to hear from you. Let's make films!</p>
                                
                                 <hr />
-                                <div className="brand-tags">Video Production - Corporate Video Production - Commercial Video - Website Video Production - Promo Videos - Post Production</div>
+                                <div className="brand-tags">Video Production - Iinfluencer marketing - Content creation - Website Video Production - Promo Videos - Post Production</div>
                             
                         </div>
                     </div>
