@@ -560,7 +560,7 @@ header::after {
 }
 @media (max-width: 764px) {
   .video-gallery {
-    padding: 7% 1%;
+    padding: 10% 1%;
   }
   .video-gallery h1 {
     font-size: 40px;
