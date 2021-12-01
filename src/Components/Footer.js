@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="footer-content-top-left">
                             <div className="brand">ARABIA</div>
                             <div className="brand-email"><i className="fa fa-mail"/>arabia@gmail.com</div>
-                            <div className="brand-number"><i className="fa fa-phone"/>+966-5-567-567-567</div>
+                            <div className="brand-number"><i className="fa fa-phone"/>+971-55-555-4836</div>
                             <div className="brand-icons">
                                 <span>
                                     <FaFacebook />
