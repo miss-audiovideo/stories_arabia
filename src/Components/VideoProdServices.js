@@ -13,7 +13,7 @@ const VideoProdServices = () => {
         <div className="container-2">
           <div className="heading-container">
             <div className="services-heading position-relative">
-              Video Production Services
+              Our Services
             </div>
           </div>
           <div className="video-services-section">
