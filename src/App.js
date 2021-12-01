@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
-import Brands from "./Components/Brands";
+
 import VideoProdServices from "./Components/VideoProdServices";
 import VideoGallery from "./Components/VideoGallery";
 import Projects from "./Components/Projects";
@@ -29,7 +29,7 @@ const App = () => {
               <Main />
             </header>
             <Service />
-            <Brands />
+            
             <VideoProdServices />
             <VideoGallery />
             <Projects />

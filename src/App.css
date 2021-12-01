@@ -1400,11 +1400,7 @@ ul li {
   font-weight: 700;
   line-height: 34px;
 }
-.projects-list {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-}
+
 .projects-list-left {
   /* background: pink; */
   padding: 10px 0;

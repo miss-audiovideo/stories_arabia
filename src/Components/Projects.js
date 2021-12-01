@@ -9,6 +9,7 @@ const Projects = () => {
         </h1>
       </div>
       <div className="projects-description">
+       
         <h3>
           We have worked on several projects since our inception in March 2021.
           We have created the inauguration video content of several hotels,
@@ -16,16 +17,17 @@ const Projects = () => {
         </h3>
         <div className="projects-list">
           <div className="projects-list-left">
+          <div class="col-sm-6 ">
             <ul>
               <li className="project-links">St Regis Dubai The Palm</li>
               <li className="project-links">Circle Mall</li>
-            </ul>
+            </ul></div>
           </div>
           <div className="projects-list-right">
-            <ul>
+            <ul><div class="col-sm-6">
               <li className="project-links">Soft launch for Souk Al Marfa</li>
               <li className="project-links">Centara CDD</li>
-            </ul>
+            </div></ul>
           </div>
         </div>
       </div>
@@ -36,6 +38,7 @@ const Projects = () => {
         </h3>
         <div className="projects-list">
           <div className="projects-list-left">
+          <div class="col-sm-4">
             <ul>
               <li className="project-links">Garden View Villas</li>
               <li className="project-links">Discovery Garden</li>
@@ -46,6 +49,7 @@ const Projects = () => {
             </ul>
           </div>
           <div className="projects-list-right">
+          <div class="col-sm-4">
             <ul>
               <li className="project-links">Nad Al Sheba Village</li>
               <li className="project-links">International City</li>
@@ -53,7 +57,7 @@ const Projects = () => {
               <li className="project-links">The Gardens</li>
               <li className="project-links">Souk warsan</li>
               <li className="project-links">Veneto</li>
-            </ul>
+            </ul></div>
           </div>
           <h3>
             Additionally, we have curated content for Delage D12, a hybrid
@@ -63,7 +67,7 @@ const Projects = () => {
           </h3>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 
