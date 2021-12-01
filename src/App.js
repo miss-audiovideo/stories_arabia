@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
 import Brands from "./Components/Brands";
@@ -15,7 +16,7 @@ import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import NavMenu from "./Components/NavMenu";
+// import NavMenu from "./Components/NavMenu";
 
 const App = () => {
   return (
@@ -23,9 +24,12 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path="/">
+            {/* <Navbar /> */}
+
             <header>
-              {/* <Navbar /> */}
-              <NavMenu />
+              <Navbar />
+              {/* https://youtu.be/At4B7A4GOPg */}
+              {/* <NavMenu /> */}
               <Main />
             </header>
             <Service />
