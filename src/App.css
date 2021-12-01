@@ -1281,7 +1281,6 @@ header::after {
 }
 
 ul {
-  margin-right: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -1424,6 +1423,7 @@ ul li {
 .projects-list{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
 @media screen and (min-device-width: 340px) and (max-device-width: 620px) {
   .project-links {
@@ -1439,13 +1439,11 @@ ul li {
   }
   .projects-list-left ul li {
     display: flex;
-    padding-left: 50px;
   }
   .projects-list-right {
     flex: 1;
   }
   .projects-list-right ul li {
     display: flex;
-    padding-left: 50px;
   }
 }
