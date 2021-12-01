@@ -505,6 +505,7 @@ header::after {
   padding: 5% 5%;
   background: var(--clr-white);
   position: relative;
+  margin-bottom: 20%;
 }
 .video-gallery h1 {
   color: var(--clr-primary-5);
@@ -618,6 +619,7 @@ header::after {
   padding: 5% 0;
   background: var(--clr-primary-9);
   position: relative;
+  
 }
 .featured-services h1 {
   color: var(--clr-primary-5);
