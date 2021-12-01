@@ -48,6 +48,7 @@ const Projects = () => {
               <li className="project-links">Badrah</li>
             </ul>
           </div>
+          </div>
           <div className="projects-list-right">
           <div class="col-sm-4">
             <ul>
@@ -57,17 +58,18 @@ const Projects = () => {
               <li className="project-links">The Gardens</li>
               <li className="project-links">Souk warsan</li>
               <li className="project-links">Veneto</li>
-            </ul></div>
+            </ul>
           </div>
+          </div>
+        </div>
           <h3>
             Additionally, we have curated content for Delage D12, a hybrid
             street-legal sports hypercar produced by the French automobile
             manufacturer Delage and is a candidate to become the fastest
             road-legal car in the world.
           </h3>
-        </div>
       </div>
-    </div></div>
+    </div>
   );
 };
 
