@@ -231,6 +231,11 @@ header::after {
   align-items: center;
   padding: 0 2rem;
 }
+
+.rightSide img {
+  height: 75px;
+  width: auto;
+}
 .brand {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1322,7 +1327,7 @@ ul li {
 .projects-description {
   width: 70%;
   /* background: yellow; */
-  margin: auto;
+  margin: 2rem auto;
 }
 .projects-description h3 {
   text-align: center;
@@ -1343,6 +1348,7 @@ ul li {
   color: #617d98;
   font-weight: bold;
   text-align: center;
+  padding: 0.5rem 0;
   /* padding: 10px 0; */
 }
 .projects-list-right {
@@ -1361,8 +1367,12 @@ ul li {
     /* flex-direction: column; */
     justify-content: center;
     /* padding-left: 10px; */
-    margin: 0;
-    padding: 0;
+    margin: 1rem 0;
+    padding: 0.25rem;
+    height: 8rem;
+    border: 2px solid var(--clr-grey-1);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
   }
   .projects-list-left {
     flex: 1;

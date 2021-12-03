@@ -17,17 +17,20 @@ const Projects = () => {
         </h3>
         <div className="projects-list">
           <div className="projects-list-left">
-          <div class="col-sm-6 ">
-            <ul>
-              <li className="project-links">St Regis Dubai The Palm</li>
-              <li className="project-links">Circle Mall</li>
-            </ul></div>
+            <div class="col-sm-6 ">
+              <ul>
+                <li className="project-links">St Regis Dubai The Palm</li>
+                <li className="project-links">Circle Mall</li>
+              </ul>
+            </div>
           </div>
           <div className="projects-list-right">
-            <ul><div class="col-sm-6">
-              <li className="project-links">Soft launch for Souk Al Marfa</li>
-              <li className="project-links">Centara CDD</li>
-            </div></ul>
+            <div class="col-sm-6">
+              <ul>
+                <li className="project-links">Soft launch for Souk Al Marfa</li>
+                <li className="project-links">Centara CDD</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
