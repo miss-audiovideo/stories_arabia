@@ -40,8 +40,6 @@ const App = () => {
             {/* <Featured /> */}
             <FeaturedServices />
             <Blog />
-
-            <Gallery />
           </Route>
           <Route exact path="/products">
             <Navbar />
