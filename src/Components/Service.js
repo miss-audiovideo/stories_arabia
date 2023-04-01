@@ -1,6 +1,7 @@
 import React from "react";
 import image from "./Images/service-img.jpg";
 import imagebg from "./Images/Image-1.jpg";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -22,8 +23,16 @@ const Service = () => {
               <p>We create content that’s inspiring, thought-provoking, and visually compelling by combining a data-driven approach with knowledge gained from years in digital marketing to deliver outstanding results to our clients.
 We work closely with all our clients to create visible results through our expertise in digital strategy and performance-driven marketing.</p>
               <div className="service-btn">
-                <button className="btn btn-primary">Our Services</button>
-                <button className="btn btn-primary">Contact Us</button>
+                <button className="btn btn-primary">
+                  <Link to="/products">
+                    Our Services
+                  </Link>
+                </button>
+                <button className="btn btn-primary">
+                  <Link to='contact'>
+                    Contact Us
+                  </Link>
+                </button>
                 </div>
             </div>
           </div>

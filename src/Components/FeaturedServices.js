@@ -15,7 +15,7 @@ const FeaturedServices = () => {
       const img = document.querySelectorAll(".featured-img");
       const img1 = document.querySelectorAll(".featured-img1");
       const scrollHeight = window.pageYOffset;
-      if (scrollHeight > sectionRef.current.offsetTop - 250) {
+      if (sectionRef.current && scrollHeight > sectionRef.current.offsetTop - 250) {
         img.forEach((item) => {
           item.style.opacity = "1";
           item.style.transform = "translateY(0%)";

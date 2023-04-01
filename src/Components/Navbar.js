@@ -65,7 +65,8 @@ const Navbar = () => {
       </div>
       <div className="leftSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <Link to="/">Products</Link>
+          <Link to="/">Home</Link>
+          <Link to="/products">Products</Link>
           <Link to="/About">About</Link>
           <Link to="Contact">Contact</Link>
         </div>
