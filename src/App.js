@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar";
 // import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
-
 import VideoProdServices from "./Components/VideoProdServices";
 import VideoGallery from "./Components/VideoGallery";
 import Projects from "./Components/Projects";
@@ -16,7 +15,7 @@ import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Products from "./Components/Products";
-import ContactForm from "./Components/contactForm";
+import ContactForm from "./Components/ContactForm.js";
 // import NavMenu from "./Components/NavMenu";
 
 const App = () => {
