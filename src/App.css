@@ -1361,6 +1361,9 @@ ul li {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+.service-section link{
+  text-decoration: none;
+}
 @media screen and (min-device-width: 340px) and (max-device-width: 620px) {
   .project-links {
     display: flex;

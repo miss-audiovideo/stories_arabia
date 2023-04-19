@@ -5,17 +5,17 @@ import Navbar from "./Components/Navbar";
 // import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Service from "./Components/Service";
-
 import VideoProdServices from "./Components/VideoProdServices";
 import VideoGallery from "./Components/VideoGallery";
 import Projects from "./Components/Projects";
 // import Featured from "./Components/Featured";
 import FeaturedServices from "./Components/FeaturedServices";
 import Blog from "./Components/Blog";
-import Gallery from "./Components/Gallery";
 import ContactHeader from "./Components/ContactHeader";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Products from "./Components/Products";
+import ContactForm from "./Components/ContactForm.js";
 // import NavMenu from "./Components/NavMenu";
 
 const App = () => {
@@ -40,11 +40,10 @@ const App = () => {
             {/* <Featured /> */}
             <FeaturedServices />
             <Blog />
-
-            <Gallery />
           </Route>
           <Route exact path="/products">
             <Navbar />
+            <Products />
           </Route>
           <Route exact path="/about">
             <Navbar />
@@ -55,6 +54,7 @@ const App = () => {
               <ContactHeader />
             </header>
             <Contact />
+            <ContactForm />
           </Route>
         </Switch>
         <Footer />

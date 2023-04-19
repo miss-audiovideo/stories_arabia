@@ -5,6 +5,7 @@ import reviewIcon from "./Images/icons/outline_reviews_black_24dp.png";
 import starIcon from "./Images/icons/outline_star_border_black_24dp.png";
 // import studioIcon from "./Images/icons/outline_video_camera_front_black_24dp.png";
 import vrIcon from "./Images/icons/vr.png";
+import { Link } from 'react-router-dom';
 
 const VideoProdServices = () => {
   return (
@@ -61,7 +62,11 @@ const VideoProdServices = () => {
               </p>
             </div>
           </div>
-          <button className="our-services-btn">Our Services</button>
+          <button className="our-services-btn">
+            <Link to="products">
+              Our Services
+            </Link>
+          </button>
         </div>
       </div>
     </>

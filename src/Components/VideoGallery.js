@@ -20,8 +20,9 @@ const VideoGallery = () => {
                 src={residence}
                 title="video1"
                 frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+              
               ></iframe>
             </div>
             <div className="video-2">
@@ -31,7 +32,7 @@ const VideoGallery = () => {
                 src={christmas}
                 title="video2"
                 frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
@@ -42,7 +43,7 @@ const VideoGallery = () => {
                   src={marina}
                   title="video3"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
             </div>
@@ -53,7 +54,7 @@ const VideoGallery = () => {
                   src={guni}
                   title="video4"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
               ></iframe>
             </div>
@@ -64,7 +65,7 @@ const VideoGallery = () => {
                 src={residence}
                 title="video5"
                 frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
@@ -75,14 +76,14 @@ const VideoGallery = () => {
                 src={marina}
                 title="video6"
                 frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
           </div>
-          <div className="portfolio-btn">
+          {/* <div className="portfolio-btn">
             <button className="btn btn-primary">PORTFOLIO</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

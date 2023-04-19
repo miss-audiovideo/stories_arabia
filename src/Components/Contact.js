@@ -15,16 +15,16 @@ const Contact = () => {
               We keep our cameras running.
             </p>
           </div>
-          <div className="brand-email">
+          {/* <div className="brand-email">
             <i className="fa fa-mail" />
             arabia@gmail.com
           </div>
           <div className="brand-number">
             <i className="fa fa-phone" />
             +966-5-567-567-567
-          </div>
+          </div> */}
         </div>
-        <div className="contact-right">
+        {/* <div className="contact-right">
           <form className="contact-form">
             <div className="form-group name">
               <label htmlFor="name">Name</label>
@@ -65,7 +65,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </>
   );
