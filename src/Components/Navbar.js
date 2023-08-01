@@ -53,7 +53,7 @@
 import React, { useState } from "react";
 import "../Components/Navbar.css";
 import { Link } from "react-router-dom";
-import logo from './Images/logo1.png';
+import logo from './Images/logo.png';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -66,7 +66,6 @@ const Navbar = () => {
       <div className="leftSide">
         <div className="links" id={showLinks ? "hidden" : ""}>
           <Link to="/">Home</Link>
-          <Link to="/products">Products</Link>
           <Link to="/About">About</Link>
           <Link to="Contact">Contact</Link>
         </div>
